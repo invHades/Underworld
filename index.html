@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="icon" type="image/png" href="resources/cerberus.png">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <title>Underworld</title>
+    
+</head>
+<body>
+
+    <!-- Contenedor de video -->
+    <div class="video-container">
+        <video autoplay loop muted>
+            <source src="resources/fondofuego.mp4" type="video/mp4">
+            Tu navegador no soporta el video.
+        </video>
+    </div>
+    <!-- FIN Contenedor de video -->
+
+    <!-- Nav -->
+    <nav>
+         <div class="logo">
+        <img src="resources/letrasanashe.png" alt="Logo">
+    </div>
+    
+    <!-- Menu -->
+    <div class="menu">
+        <img src="resources/skull.png" alt="skull" class="skull">
+        <a href="#inicio"><b>Inicio</b></a>
+        <a href="#info"><b>Informacion</b></a>
+        <a href="#reglas"><b>Reglas</b></a>
+        <a href="#unirse"><b>Unirse</b></a>
+        <a href="#redes"><b>Redes</b></a>
+        <img src="resources/skull.png" alt="skull" class="skull">
+    </div>
+     <!--FIN Menu -->
+    </nav>
+    <!-- FIN Nav -->
+
+     <!-- seccion de inicio -->
+   <div id="inicio" class="container cinematic-section">
+  <div class="inicio-box">
+    <div class="puerta-box">
+      <video autoplay loop muted>
+            <source src="resources/videopuertas2.mp4" type="video/mp4">
+            Tu navegador no soporta el video.
+        </video>
+      </div>
+    </div>
+  </div>
+<!-- FIN seccion de inicio -->
+
+<!-- seccion de informacion, carrusel de pergaminos -->
+<div id="info" class="container cinematic-section">
+    <div class="carousel">
+  <div class="carousel-container" id="carousel">
+    <img src="resources/scroll1.png" class="carousel-image active" alt="Imagen 1">
+    <img src="resources/scroll2.png" class="carousel-image" alt="Imagen 2">
+    <img src="resources/canalesimportantes1.png" class="carousel-image" alt="Imagen 3">
+    <img src="resources/canalesimportantes2.png" class="carousel-image" alt="Imagen 4">
+    <img src="resources/facciones1.png" class="carousel-image" alt="Imagen 5">
+      <img src="resources/facciones2.png" class="carousel-image" alt="Imagen 6">
+    <img src="resources/scrollrolesaconseguir.png" class="carousel-image" alt="Imagen 7">
+    <img src="resources/scrollrolesaconseguir2.png" class="carousel-image" alt="Imagen 8">
+    <img src="resources/scrollrolesaconseguir3.png" class="carousel-image" alt="Imagen 9">
+    <img src="resources/scrolljuicio.png" class="carousel-image" alt="Imagen 10">
+  </div>
+
+  <button class="arrow left" id="prev">&#10094;</button>
+  <button class="arrow right" id="next">&#10095;</button>
+</div>
+</div>
+<!--FIN seccion de informacion, carrusel de pergaminos -->
+
+
+<!-- seccion de reglas -->
+<div id="reglas" class="container cinematic-section">
+    <section class="reglas-carousel">
+  <div class="texto-container">
+    <div class="texto-box" id="textoActual">
+      <p><strong>════════ ♆ LOS DECRETOS DEL INFRAMUNDO ♆ ════════</strong></p>
+    </div>
+<button type="button" class="arrow-text left-text" onclick="cambiarTexto(-1)" tabindex="-1">&#10094;</button>
+<button type="button" class="arrow-text right-text" onclick="cambiarTexto(1)" tabindex="-1">&#10095;</button>
+
+  </div>
+</section>
+
+</div>
+<!-- FIN seccion de reglas -->
+
+<!-- seccion unirse al server -->
+    <div id="unirse" class="container cinematic-section">
+       <div id="info-servidor">
+    <img src="resources/iconounderworld.jpg" alt="Imagen del servidor" class="server-icon">
+    <h2>Underworld</h2> <br>
+    <p><b>Bienvenido al Inframundo. Un lugar calentito donde las almas se reúnen para hablar sin restricciones sobre lo que sea. Tambien para jugar y hacer diversas actividades exclusivas.</p></b> <br>
+    <p>Miembros online: <span id="miembros-online">Cargando...</span></p>
+    <a href="https://discord.gg/jD8cVKNe" target="_blank">
+        <button><b>Unirse al servidor</b></button>
+    </a>
+</div>
+    </div>
+    <!-- FIN seccion unirse al server -->
+
+    <!-- seccion de redes sociales -->
+    <div id="redes" class="container cinematic-section">
+        <div class="redes-box">
+        <img src="resources/imghades.png" alt="Foto de perfil" class="perfil-icon">
+        <h2 class="redesTxt">Mis Redes Sociales</h2>
+        <h4 class="creator"><pre>-Creador de Underworld server
+-Creador de Underworld pagina
+        </pre></h4>
+        
+        <ul class="redes-list">
+            <li><img src="resources/Instagram_icon.png" alt="Instagram"><a href="https://www.instagram.com/mckancr/" target="_blank">Instagram</a></li>
+            <li><img src="resources/youtube.png" alt="YouTube"><a href="https://www.youtube.com/@invHadess" target="_blank">YouTube</a></li>
+            <li><img src="resources/xico.webp" alt="Twitter"><a href="https://x.com/InvHades01" target="_blank">Twitter</a></li>
+            <li><img src="resources/wattpadicon.png" alt="Wattpad"><a href="https://www.wattpad.com/user/invHades" target="_blank">Wattpad</a></li>
+        </ul>
+     </div>
+    </div>
+     <!-- FIN seccion de redes sociales -->
+
+      <!-- Footer -->
+    <footer>
+       <p>&copy; 2025 - Todos los derechos reservados - <a class="hadesFooter">Hades</a></p>
+        <div class="contacto-footer">
+        <p>Contacto:</p>
+        <a href="mailto:santiago31072004@gmail.com">
+            <img src="resources/gmail.png" alt="Gmail">
+            Gmail
+        </a>
+    </div>
+    </footer>
+    <!-- FIN  Footer -->
+
+</body>
+</html>
